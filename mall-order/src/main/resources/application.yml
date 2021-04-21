@@ -8,12 +8,12 @@ spring:
         server-addr: 192.168.0.151:8848
     sentinel:
       transport:
-        dashboard: localhost:8333
+        dashboard: 192.168.0.151:8858
   application:
     name: mall-order
   datasource:
     username: root
-    password: mq0000
+    password: 123456
     url: jdbc:mysql://${ipAddr}:3306/mall_oms
     driver-class-name: com.mysql.cj.jdbc.Driver
   thymeleaf:

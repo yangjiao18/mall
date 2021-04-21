@@ -7,7 +7,7 @@ spring:
         server-addr: 192.168.0.151:8848
     sentinel:
       transport:
-        dashboard: localhost:8333
+        dashboard: 192.168.0.151:8858
   thymeleaf:
     cache: false
   session:
@@ -15,6 +15,6 @@ spring:
   redis:
     host: ${ipAddr}
 #ipAddr: 120.79.50.189
-ipAddr: 10.43.1.52
+ipAddr: 192.168.0.151
 server:
   port: 12000
